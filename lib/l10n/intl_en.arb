@@ -1,0 +1,32 @@
+{
+    "AppBarMuseumScreen": "Historical Places",
+    "searchBar": "Search",
+    "Home":  "Home",
+    "Notification": "Notification",
+    "Language": "Language",
+    "ContactUs": "Contact us",
+    "AboutUs":"About us",
+    "List": "Favorite List",
+    "TermsConditions":"Terms & Conditions",
+    "Logout":"Logout",
+    "TheGrandEgyptianMuseum":"The GrandEgyptian Museum",
+    "ViewProfile":"ViewProfile",
+    "LocationMuseum": "Kafr Nassar, Al Giza Desert, Giza Governorate 3513204",
+
+     "PersonalInformation": "Personal information",
+    "Name": "Name",
+    "PhoneNumber": "Phone Number",
+    "EmailAddress": "Email Address",
+    "Country": "Country",
+    "ChangePassword": "Change password",
+    "RemoveAccount": "Remove Account",
+    "Profile": "Profile",
+    "EditPersonalInformation": "Edit Personal information",
+    "Save": "Save",
+    "TittleRemoveAccount": "Are you sure you want to remove your account",
+    "Remove": "Remove",
+    "Cancel": "Cancel"
+
+
+
+}
