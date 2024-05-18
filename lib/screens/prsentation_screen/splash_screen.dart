@@ -1,4 +1,6 @@
+import 'package:egyptexplore/screens/authntection/login_screen.dart';
 import 'package:egyptexplore/screens/home/home_screen.dart';
+import 'package:egyptexplore/screens/onBoardng/onBoardingScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -20,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (x) => const HomeScreen(),
+          builder: (x) => OnBoardingScreen(),
         ),
       );
     });

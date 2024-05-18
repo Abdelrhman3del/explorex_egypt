@@ -1,10 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:egyptexplore/screens/home/museum_deails.dart';
+import 'package:egyptexplore/screens/ss.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_cube/flutter_cube.dart';
+import 'package:o3d/o3d.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-
 import '../../const/colors/color.dart';
-import '../../widgets/item_slider.dart';
 
 class KingDetails extends StatefulWidget {
   const KingDetails({super.key});
@@ -14,6 +15,12 @@ class KingDetails extends StatefulWidget {
 }
 
 class _KingDetailsState extends State<KingDetails> {
+  late Object jet;
+
+
+
+
+
   int currentIndex = 0;
 
   @override
@@ -124,10 +131,22 @@ class _KingDetailsState extends State<KingDetails> {
               const SizedBox(
                 height: 10,
               ),
-              itemSlider(
-                  imageSlider: "assets/images/nef2.png",
-                  imageIcon: "assets/images/icons/switch_icon.png",
-                  width: 60)
+              InkWell(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (c) => const PanoramaScreen(),
+                    ),
+                  );
+                },
+                child: Stack(
+                  children: [
+
+                    Image.asset('assets/images/nef2.png'),
+                  ],
+                ),
+              ),
             ],
           ),
         ),

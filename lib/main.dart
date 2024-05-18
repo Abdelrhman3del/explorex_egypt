@@ -1,6 +1,6 @@
-import 'package:egyptexplore/screens/home/home_screen.dart';
-import 'package:egyptexplore/screens/onBoardng/onBoardingScreen.dart';
+
 import 'package:egyptexplore/screens/prsentation_screen/splash_screen.dart';
+import 'package:egyptexplore/screens/ss.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
 
         return MaterialApp(
           locale: const Locale('en'),
-          localizationsDelegates: [
+          localizationsDelegates: const [
                 S.delegate,
                 GlobalMaterialLocalizations.delegate,
                 GlobalWidgetsLocalizations.delegate,
@@ -48,7 +48,7 @@ class MyApp extends StatelessWidget {
           home: child,
         );
       },
-      child: const OnBoardingScreen(),
+      child:  SplashScreen(),
     );
   }
 }
